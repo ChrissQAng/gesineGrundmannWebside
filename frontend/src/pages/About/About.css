@@ -1,0 +1,62 @@
+.about-wrapper {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.background-video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: auto;
+  height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+  z-index: -1;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  color: black;
+  padding: 5% 0 50% 0;
+  max-width: 80%;
+  margin: 0 auto;
+  height: auto;
+  scrollbar-width: none;
+  overflow-y: auto; /* Aktiviert das Scrollen nur für den Content-Bereich */
+}
+
+@media (min-height: 100vh) {
+  .content {
+    max-height: 100vh;
+  }
+}
+
+.table-item {
+  width: 100%;
+  border-collapse: collapse;
+  display: flex;
+}
+.table-item p:first-child {
+  width: 20%;
+}
+.table-item p:last-child {
+  width: 80%;
+}
+
+.about-wrapper h3 {
+  padding-bottom: 2vh;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+.about-wrapper h4 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding-bottom: 1vh;
+}
+.about-wrapper span {
+  display: block;
+}

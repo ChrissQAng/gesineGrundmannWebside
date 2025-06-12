@@ -1,0 +1,46 @@
+.imprint-wrapper {
+  padding: 5% 10%;
+  background-color: #efefef;
+  min-height: 100vh;
+}
+.imprint-wrapper a {
+  color: black;
+}
+.imprint-wrapper p {
+  padding-bottom: 3%;
+}
+.fine-print {
+  text-align: justify;
+}
+.imprint-angerer {
+  background-color: black;
+  padding: 2.5%;
+  margin: 5vh auto;
+  border-radius: 20px;
+  width: fit-content;
+}
+.imprint-angerer > * {
+  font-size: 1.3rem;
+  color: white;
+}
+.imprint-angerer li {
+  font-size: 1.1rem;
+}
+.angerer {
+  font-size: 1.6rem;
+}
+.imprint-contact a {
+  display: block;
+  padding: 2%;
+}
+@media (min-width: 441px) and (max-width: 768px) {
+  .imprint-wrapper p {
+    font-size: 0.8rem;
+  }
+  .imprint-angerer li {
+    font-size: 0.7rem;
+  }
+  .angerer {
+    font-size: 1.2rem !important;
+  }
+}

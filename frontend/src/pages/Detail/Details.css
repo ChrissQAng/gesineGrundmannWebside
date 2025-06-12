@@ -1,0 +1,19 @@
+.detail-wrapper {
+  min-height: 100vh;
+  background-color: #efefef;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2vh;
+  padding-top: 15vh;
+  padding-bottom: 15vh;
+  width: 80vw;
+  margin: auto;
+}
+.detail p {
+  align-self: flex-start;
+}

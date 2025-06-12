@@ -1,0 +1,348 @@
+img {
+  max-width: 100%;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  /* background-color: #efefef; */
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+h2 {
+  padding-bottom: 10vh;
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+
+h3 {
+  padding-bottom: 5vh;
+  font-size: 2rem;
+  font-weight: normal;
+}
+h4 {
+  padding-top: 5vh;
+  font-weight: normal;
+}
+h5 {
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+ul {
+  list-style-type: none;
+}
+.copyright {
+  margin-top: 5vh;
+  font-style: italic;
+  font-weight: 700;
+}
+
+@media (min-width: 1920px) and (max-width: 2200px) {
+  .about {
+    position: absolute;
+    top: 33%;
+    left: 70.5%;
+  }
+  .contact {
+    position: absolute;
+    top: 62%;
+    left: 70%;
+  }
+  .texts {
+    position: absolute;
+    top: 30.5%;
+    left: 43%;
+  }
+  .views {
+    position: absolute;
+    top: 47.4%;
+    left: 56%;
+  }
+  .works {
+    position: absolute;
+    top: 35.8%;
+    left: 24.5%;
+  }
+  .music {
+    position: absolute;
+    top: 57.9%;
+    left: 24%;
+  }
+}
+.imprint {
+  position: absolute;
+  top: 63%;
+  left: 40.8%;
+}
+@media (min-width: 1200px) and (max-width: 1920px) {
+  .about {
+    position: absolute;
+    top: 32.5%;
+    left: 71%;
+  }
+  .contact {
+    position: absolute;
+    top: 61.5%;
+    left: 70%;
+  }
+  .texts {
+    position: absolute;
+    top: 30.3%;
+    left: 43.5%;
+  }
+  .views {
+    position: absolute;
+    top: 47%;
+    left: 56.2%;
+  }
+  .works {
+    position: absolute;
+    top: 35.5%;
+    left: 24.3%;
+  }
+  .music {
+    position: absolute;
+    top: 57.5%;
+    left: 23.7%;
+  }
+}
+.imprint {
+  position: absolute;
+  top: 63.5%;
+  left: 42%;
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .home {
+    padding-top: 7vh;
+  }
+  .homeWrapper a {
+    font-size: 0.9rem;
+  }
+  .homeWrapper h1 {
+    font-size: 3rem;
+    top: 0%;
+  }
+  .about {
+    position: absolute;
+    top: 32%;
+    left: 70.5%;
+  }
+  .contact {
+    position: absolute;
+    top: 61.2%;
+    left: 69.5%;
+  }
+  .texts {
+    position: absolute;
+    top: 29.6%;
+    left: 43%;
+  }
+  .views {
+    position: absolute;
+    top: 46.5%;
+    left: 55.8%;
+  }
+  .works {
+    position: absolute;
+    top: 35.2%;
+    left: 24%;
+  }
+  .music {
+    position: absolute;
+    top: 57.2%;
+    left: 23.5%;
+  }
+  .imprint {
+    position: absolute;
+    top: 62.8%;
+    left: 41%;
+  }
+  .tile-wrapper img {
+    width: 35vw;
+  }
+  .homeTiles {
+    margin-top: 0%;
+  }
+}
+@media (min-width: 769px) and (max-width: 991px) {
+  .home {
+    padding-top: 7vh;
+  }
+  .homeWrapper a {
+    font-size: 0.8rem;
+  }
+  .homeWrapper h1 {
+    font-size: 2.9rem;
+    top: 0%;
+  }
+
+  .about {
+    position: absolute;
+    top: 31.8%;
+    left: 70.3%;
+  }
+  .contact {
+    position: absolute;
+    top: 60.5%;
+    left: 69.1%;
+  }
+  .texts {
+    position: absolute;
+    top: 29.3%;
+    left: 42.8%;
+  }
+  .views {
+    position: absolute;
+    top: 46.1%;
+    left: 55.2%;
+  }
+  .works {
+    position: absolute;
+    top: 34.8%;
+    left: 23.5%;
+  }
+  .music {
+    position: absolute;
+    top: 56.8%;
+    left: 22.6%;
+  }
+  .imprint {
+    position: absolute;
+    top: 62.3%;
+    left: 40.4%;
+  }
+  .tile-wrapper img {
+    width: 35vw;
+  }
+  .homeTiles {
+    margin-top: 0%;
+  }
+}
+
+@media (min-width: 441px) and (max-width: 768px) {
+  .home {
+    padding-top: 6vh;
+  }
+  .homeWrapper a {
+    font-size: 0.6rem;
+  }
+  .homeWrapper h1 {
+    font-size: 2.2rem;
+    top: 0%;
+  }
+  .homeWrapper a:hover {
+    transform: scale(2.5);
+  }
+  .about {
+    position: absolute;
+    top: 31%;
+    left: 69.6%;
+  }
+  .contact {
+    position: absolute;
+    top: 60%;
+    left: 68.5%;
+  }
+  .texts {
+    position: absolute;
+    top: 28.7%;
+    left: 42.2%;
+  }
+  .views {
+    position: absolute;
+    top: 45.3%;
+    left: 54.7%;
+  }
+  .works {
+    position: absolute;
+    top: 34%;
+    left: 22.8%;
+  }
+  .music {
+    position: absolute;
+    top: 56%;
+    left: 22%;
+  }
+  .imprint {
+    position: absolute;
+    top: 61.3%;
+    left: 39%;
+  }
+  .tile-wrapper img {
+    width: 35vw;
+  }
+  .homeTiles {
+    margin-top: 0%;
+  }
+  .contact-insta {
+    padding-left: 50vw;
+  }
+}
+
+@media (min-width: 120px) and (max-width: 440px) {
+  .home {
+    padding-top: 15vh;
+  }
+  .homeWrapper h1 {
+    font-size: 1rem;
+    top: 0%;
+  }
+  .homeWrapper img {
+    top: 130%;
+  }
+  .homeWrapper a {
+    font-size: 0.6rem;
+  }
+  .homeWrapper a:hover {
+    transform: scale(2.8);
+  }
+
+  .about {
+    position: absolute;
+    top: 28.5%;
+    left: 67.2%;
+  }
+  .contact {
+    position: absolute;
+    top: 57.5%;
+    left: 65.5%;
+  }
+  .texts {
+    position: absolute;
+    top: 26.3%;
+    left: 40%;
+  }
+  .views {
+    position: absolute;
+    top: 42.7%;
+    left: 52%;
+  }
+  .works {
+    position: absolute;
+    top: 31%;
+    left: 20.3%;
+  }
+  .music {
+    position: absolute;
+    top: 54%;
+    left: 18.5%;
+  }
+  .imprint {
+    position: absolute;
+    top: 60%;
+    left: 36%;
+  }
+  .tile-wrapper img {
+    width: 70vw;
+  }
+  .homeTiles {
+    margin-top: 0%;
+  }
+  .contact-insta {
+    padding-left: 50vw;
+  }
+}

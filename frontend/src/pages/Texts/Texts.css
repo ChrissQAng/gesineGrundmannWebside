@@ -1,0 +1,22 @@
+.texts-wrapper {
+  padding: 5% 10%;
+  background-color: #efefef;
+  min-height: 100vh;
+}
+
+.texts-wrapper h2 {
+  margin-bottom: 10vh;
+}
+
+.texts-links {
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+}
+
+.texts-links a {
+  color: black;
+}
+.texts-links span {
+  font-size: 1.6rem;
+}
